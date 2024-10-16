@@ -1,0 +1,95 @@
+.box{
+    background-color: palegreen;
+    height:200px;
+    width:300px;
+}
+.responsive-box{
+    background-color: palegoldenrod;
+    width:50vw;
+    height:50vh;
+}
+.padded-text{
+    background-color: aquamarine;
+    padding:20px;
+}
+.custom-padding{
+    background-color: palevioletred;
+    padding:10px 20px 10px 20px
+}
+.border-box{
+
+    border:solid black 2px;
+}
+.rounded-border{
+    border-radius: 15px;
+    border:dotted red 3px;
+}
+.margin-text{
+    border:solid purple;
+    margin:30px;
+}
+.custom-margin{
+    margin:20px 40px 20px 40px;
+    border: solid purple;
+}
+.inline-element{
+    display:inline;
+    background-color: purple;
+    color: white;
+    border: dotted white 15px;
+    padding:10px;
+    width:100px;
+    height:50px;
+}
+.block-element{
+    display:block;
+}
+.inline-block-element{
+    display:inline-block;
+    background-color: mediumorchid;
+    color: white;
+    border: dotted white 15px;
+    padding:10px;
+    width:100px;
+    height:50px;
+}
+.hidden-element{
+    display:inline-block;
+    background-color: mediumseagreen;
+    color: white;
+    border: dotted white 15px;
+    padding:10px;
+    width:100px;
+    height:50px;
+    display:none;
+}
+.visible-element{
+    display:inline-block;
+    background-color: mediumseagreen;
+    color: white;
+    border: dotted white 15px;
+    padding:10px;
+    width:100px;
+    height:50px;
+    visibility:visible;
+}
+.invisible-element{
+    display:inline-block;
+    background-color: mediumseagreen;
+    color: white;
+    border: dotted white 15px;
+    padding:10px;
+    width:100px;
+    height:50px;
+    visibility:hidden;
+}
+.transparent-box{
+    display:inline-block;
+    background-color: blue;
+    opacity:.5;
+    color: white;
+    border: dotted white 15px;
+    padding:10px;
+    width:100px;
+    height:50px;
+}
